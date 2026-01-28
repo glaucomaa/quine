@@ -143,6 +143,9 @@ run_check "golang"  "go.go"   'go build -o "$bin" "$src" && "$bin"' "go"
 run_check "clojure" "clj.clj" 'clojure -M "$src"' "clojure"
 run_check "bash"    "sh.sh"   'bash "$src"'
 run_check "zig"     "zig.zig" 'zig run "$src"' "zig"
+run_check "lua"     "lua.lua" 'lua "$src"' "lua"
+run_check "elixir"  "ex.exs"   'elixir "$src"' "elixir"
+run_check "ocaml"   "ocaml.ml" 'ocaml "$src"' "ocaml"
 set -e
 hr
 

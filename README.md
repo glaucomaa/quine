@@ -16,7 +16,7 @@ rustc rs.rs -o rs && ./rs
 
 ## Languages
 
-`Python` `C` `C++` `Rust` `Go` `Clojure` `Bash` `Zig`
+`Python` `C` `C++` `Rust` `Go` `Clojure` `Bash` `Zig` `Lua` `Elixir` `OCaml`
 
 ## Notes
 
